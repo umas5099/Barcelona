@@ -1,0 +1,91 @@
+
+:root {
+    --barca-blue: #004D98;
+    --barca-red: #A50044;
+    --barca-gold: #FFCC00;
+    --barca-light: #f3f5f9;
+    --barca-dark: #111827;
+}
+ h2 {
+     font-size: 2em;
+     font-weight: bold;
+     
+     background: linear-gradient(90deg, var(--barca-blue), var(--barca-red));
+     
+     -webkit-background-clip: text;
+     background-clip: text;
+     
+     color: transparent;
+     
+     -webkit-text-fill-color: transparent;
+ }
+
+body {
+    background: var(--barca-light);
+    color: #222;
+}
+
+.barca-navbar {
+    background: linear-gradient(90deg, var(--barca-blue), var(--barca-red));
+}
+
+.barca-logo {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.players-hero {
+    background: linear-gradient(90deg, var(--barca-blue), var(--barca-red));
+}
+
+.player-tabs .nav-link {
+    margin: 4px;
+    border-radius: 999px;
+    background: #fff;
+    color: #222;
+    font-weight: 700;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.player-tabs .nav-link.active {
+    background: linear-gradient(90deg, var(--barca-blue), var(--barca-red));
+    color: #fff;
+}
+
+.player-link {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.player-card {
+    border-radius: 18px;
+    overflow: hidden;
+    transition: all 0.25s ease;
+}
+
+.player-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.player-img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.footer-barca {
+    background: var(--barca-dark);
+}
+
+@media (max-width: 767px) {
+    .player-img {
+        height: 240px;
+    }
+
+    .player-tabs .nav-link {
+        font-size: 0.95rem;
+        padding: 10px 8px;
+    }
+}
