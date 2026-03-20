@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Barcelona - Játékosok</title>
+    <link rel="shortcut icon" href="img/Barcanlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="barca.css">
+</head>
+
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark barca-navbar shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center font-weight-bold" href="index.html">
+                <img src="img/Barcanlogo.png" alt="Barcelona logó" class="barca-logo mr-2">
+
+                FC Barcelona
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Főoldal</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="jatekosok.html">Játékosok</a>
+                    </li>
+                    <li class="nav-item "><a class="nav-link" href="link.html">Linkek</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="py-5">
+        <div class="container">
+     
+            <ul class="nav nav-pills nav-fill player-tabs mb-4" id="playerTabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="kapusok-tab" data-toggle="pill" href="#kapusok"
+                        role="tab">Kapusok</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="vedok-tab" data-toggle="pill" href="#vedok" role="tab">Védők</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="kozeppalyasok-tab" data-toggle="pill" href="#kozeppalyasok"
+                        role="tab">Középpályások</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="tamadok-tab" data-toggle="pill" href="#tamadok" role="tab">Támadók</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+               
+                <div class="tab-pane fade show active" id="kapusok" role="tabpanel">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-4 mb-4">
+                            <a href="https://www.fcbarcelona.com/en/football/first-team/players/110491/joan-garcia" class="player-link">
+                                <div class="card player-card h-100 border-0 shadow-sm">
+                                    <img src="img/kapus1.jpg" class="card-img-top player-img" alt="Joan Garcia">
+                                    <div class="card-body">
+                                        <span class="badge badge-pill badge-dark mb-2">Kapus</span>
+                                        <h5 class="card-title font-weight-bold">Joan Garcia</h5>
+                                        <p class="card-text text-muted mb-0">Spanyol</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-4">
+                            <a href="https://www.fcbarcelona.com/en/football/first-team/players/3543/wojciech-szczesny" class="player-link">
+                                <div class="card player-card h-100 border-0 shadow-sm">
+                                    <img src="img/kapus2.jpg" class="card-img-top player-img" alt="Wojciech Szczęsny">
+                                    <div class="card-body">
+                                        <span class="badge badge-pill badge-dark mb-2">Kapus</span>
+                                        <h5 class="card-title font-weight-bold">Wojciech Szczęsny</h5>
+                                        <p class="card-text text-muted mb-0">Lengyel</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="tab-pane fade" id="vedok" role="tabpanel">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-4 mb-4">
+                            <a href="https://www.fcbarcelona.com/en/football/first-team/players/66133/ronald-araujo" class="player-link">
+                                <div class="card player-card h-100 border-0 shadow-sm">
+                                    <img src="img/vedo1.webp" class="card-img-top player-img" alt="Ronald Araujo">
+                                    <div class="card-body">
+                                        <span class="badge badge-pill badge-primary mb-2">Védő</span>
+                                        <h5 class="card-title font-weight-bold">Ronald Araujo</h5>
+                                        <p class="card-text text-muted mb-0">Uruguayi</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-4">
+                            <a href="https://www.fcbarcelona.com/en/football/first-team/players/129400/pau-cubarsi " class="player-link">
+                                <div class="card player-card h-100 border-0 shadow-sm">
+                                    <img src="img/vedo2.webp" class="card-img-top player-img" alt="Pau Cubarsí">
+                                    <div class="card-body">
+                                        <span class="badge badge-pill badge-primary mb-2">Védő</span>
+                                        <h5 class="card-title font-weight-bold">Pau Cubarsí</h5>
+                                        <p class="card-text text-muted mb-0">Spanyol</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-4">
+                            <a href="https://www.fcbarcelona.com/en/football/first-team/players/15552/jules-kounde" class="player-link">
+                                <div class="card player-card h-100 border-0 shadow-sm">
+                                    <img src="img/vedo3.webp" class="card-img-top player-img" alt="Jules Kounde">
+                                    <div class="card-body">
+                                        <span class="badge badge-pill badge-primary mb-2">Védő</span>
+                                        <h5 class="card-title font-weight-bold">Jules Kounde</h5>
+                                        <p class="card-text text-muted mb-0">Francia</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="tab-pane fade" id="kozeppalyasok" role="tabpanel">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-4 mb-4">
+                            <a href="https://www.fcbarcelona.com/en/football/first-team/players/118929/fermin-lopez" class="player-link">
+                                <div class="card player-card h-100 border-0 shadow-sm">
+                                    <img src="img/kozeppalya1.jpg" class="card-img-top player-img" alt="Fermín López">
+                                    <div class="card-body">
+                                        <span class="badge badge-pill badge-warning mb-2">Középpályás</span>
+                                        <h5 class="card-title font-weight-bold">Fermín López</h5>
+                                        <p class="card-text text-muted mb-0">Spanyol</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-4">
+                            <a href="https://www.fcbarcelona.com/en/football/first-team/players/70486/pedro-gonzalez" class="player-link">
+                                <div class="card player-card h-100 border-0 shadow-sm">
+                                    <img src="img/kozeppalya2.jpg" class="card-img-top player-img" alt="Pedri">
+                                    <div class="card-body">
+                                        <span class="badge badge-pill badge-warning mb-2">Középpályás</span>
+                                        <h5 class="card-title font-weight-bold">Pedri</h5>
+                                        <p class="card-text text-muted mb-0">Spanyol</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-4">
+                            <a href="https://www.fcbarcelona.com/en/football/first-team/players/141411/marc-bernal" class="player-link">
+                                <div class="card player-card h-100 border-0 shadow-sm">
+                                    <img src="img/kozeppalya3.jpg" class="card-img-top player-img" alt="Marc Bernal">
+                                    <div class="card-body">
+                                        <span class="badge badge-pill badge-warning mb-2">Középpályás</span>
+                                        <h5 class="card-title font-weight-bold">Marc Bernal</h5>
+                                        <p class="card-text text-muted mb-0">Spanyol</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tamadok" role="tabpanel">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-4 mb-4">
+                            <a href="https://www.fcbarcelona.com/en/football/first-team/players/24156/raphael-dias-belloli" class="player-link">
+                                <div class="card player-card h-100 border-0 shadow-sm">
+                                    <img src="img/tamado1.jpg" class="card-img-top player-img" alt="Raphinha">
+                                    <div class="card-body">
+                                        <span class="badge badge-pill badge-danger mb-2">Támadó</span>
+                                        <h5 class="card-title font-weight-bold">Raphinha</h5>
+                                        <p class="card-text text-muted mb-0">Brazil</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-4">
+                            <a href="https://www.fcbarcelona.com/en/football/first-team/players/5109/robert-lewandowski" class="player-link">
+                                <div class="card player-card h-100 border-0 shadow-sm">
+                                    <img src="img/tamado2.jpg" class="card-img-top player-img" alt="Robert Lewandowski">
+                                    <div class="card-body">
+                                        <span class="badge badge-pill badge-danger mb-2">Támadó</span>
+                                        <h5 class="card-title font-weight-bold">Robert Lewandowski</h5>
+                                        <p class="card-text text-muted mb-0">Lengyel</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-4">
+                            <a href="https://www.fcbarcelona.com/en/football/first-team/players/129404/lamine-yamal-nasraoui-ebana" class="player-link">
+                                <div class="card player-card h-100 border-0 shadow-sm">
+                                    <img src="img/tamado3.jpg" class="card-img-top player-img" alt="Lamine Yamal">
+                                    <div class="card-body">
+                                        <span class="badge badge-pill badge-danger mb-2">Támadó</span>
+                                        <h5 class="card-title font-weight-bold">Lamine Yamal</h5>
+                                        <p class="card-text text-muted mb-0">Spanyol</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
